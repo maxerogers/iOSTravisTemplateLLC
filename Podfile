@@ -4,7 +4,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'iOSTravisTemplate' do
-
+  pod 'HockeySDK', '~> 3.6.4'
 end
 
 target 'iOSTravisTemplateTests' do
